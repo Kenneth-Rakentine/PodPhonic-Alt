@@ -1,0 +1,89 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\sicze\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.3
+2 info using node@v21.1.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Users\sicze\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\sicze\Onedrive\Desktop\myCode\podphonic_two\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\sicze\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\sicze\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing config:load:flatten Completed in 1ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i react-icons
+22 verbose argv "i" "react-icons"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:C:\Users\sicze\Onedrive\Desktop\myCode\podphonic_two\UserssiczeAppDataLocalnpm-cache\_logs\2023-11-14T19_16_17_827Z-
+26 verbose logfile C:\Users\sicze\Onedrive\Desktop\myCode\podphonic_two\UserssiczeAppDataLocalnpm-cache\_logs\2023-11-14T19_16_17_827Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 65ms
+31 timing config:load:flatten Completed in 0ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 10ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest react-icons@*
+39 http fetch GET 200 https://registry.npmjs.org/react-icons 213ms (cache miss)
+40 silly fetch manifest react@*
+41 http fetch GET 200 https://registry.npmjs.org/react 55ms (cache revalidated)
+42 silly placeDep ROOT react-icons@4.12.0 OK for:  want: *
+43 silly placeDep ROOT react@18.2.0 OK for: react-icons@4.12.0 want: *
+44 silly fetch manifest loose-envify@^1.1.0
+45 http fetch GET 200 https://registry.npmjs.org/loose-envify 45ms (cache revalidated)
+46 timing idealTree:#root Completed in 337ms
+47 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+48 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+49 http fetch GET 200 https://registry.npmjs.org/js-tokens 55ms (cache revalidated)
+50 timing idealTree:node_modules/react Completed in 58ms
+51 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+52 timing idealTree:node_modules/loose-envify Completed in 1ms
+53 timing idealTree:node_modules/js-tokens Completed in 0ms
+54 timing idealTree:node_modules/react-icons Completed in 0ms
+55 timing idealTree:buildDeps Completed in 397ms
+56 timing idealTree:fixDepFlags Completed in 0ms
+57 timing idealTree Completed in 411ms
+58 timing reify:loadTrees Completed in 411ms
+59 timing reify:diffTrees Completed in 0ms
+60 silly reify moves {}
+61 timing reify:retireShallow Completed in 1ms
+62 timing reify:createSparse Completed in 5ms
+63 timing reify:loadBundles Completed in 0ms
+64 silly tarball no local data for react-icons@https://registry.npmjs.org/react-icons/-/react-icons-4.12.0.tgz. Extracting by manifest.
+65 timing reifyNode:node_modules/js-tokens Completed in 30ms
+66 timing reifyNode:node_modules/loose-envify Completed in 36ms
+67 timing reifyNode:node_modules/react Completed in 59ms
+68 http fetch GET 200 https://registry.npmjs.org/react-icons/-/react-icons-4.12.0.tgz 1304ms (cache miss)
+69 timing reifyNode:node_modules/react-icons Completed in 1308ms
+70 timing reify:unpack Completed in 1309ms
+71 timing reify:unretire Completed in 1ms
+72 timing build:queue Completed in 1ms
+73 timing build:link:node_modules/loose-envify Completed in 8ms
+74 timing build:link Completed in 8ms
+75 timing build:deps Completed in 9ms
+76 timing build Completed in 9ms
+77 timing reify:build Completed in 9ms
+78 timing reify:trash Completed in 0ms
+79 timing reify:save Completed in 7ms
+80 timing reify Completed in 1756ms
+81 silly ADD node_modules/js-tokens
+82 silly ADD node_modules/loose-envify
+83 silly ADD node_modules/react
+84 silly ADD node_modules/react-icons
+85 timing command:i Completed in 1762ms
+86 verbose exit 0
+87 timing npm Completed in 2143ms
+88 info ok
